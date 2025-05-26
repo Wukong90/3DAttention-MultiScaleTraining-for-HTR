@@ -14,4 +14,4 @@ testset.txt为相应的训练集图像列表、验证集图像列表与测试集
 
 上述三个测试集中的所有图片都被用于评估模型的最终性能。
 数据集SCUT-HCCDoc和SCUT-EPT可以分别从https://github.com/HCIILAB/SCUT-HCCDoc_Dataset_Release与https://github.com/HCIILAB/SCUT-EPT_Dataset_Release?tab=readme-ov-file 申请获得。
-IAM数据集可以从https://fki.tic.heia-fr.ch/databases/iam-handwriting-database 获得，需要注意的是自从2018年后，大多数相关研究者的工作采用了所谓的RWTH数据划分方式，它们与原始的数据集划分并不相同。
+IAM数据集可以从https://fki.tic.heia-fr.ch/databases/iam-handwriting-database 获得，需要注意的是自从2018年后，大多数相关研究者的工作采用了所谓的RWTH数据划分方式，它们与标准的IAM数据集划分并不相同。
