@@ -12,5 +12,5 @@ Datasets_list/SCUT-HCCDoc/中train_list.txt与test_list.txt为我们使用的训
 标准的IAM数据集提供了一个训练集、两个验证集和一个测试集。目录Datasets_list/IAM/中的trainset.txt、validationset1.txt与validationset2.txt、testset.txt为相应的训练列表、验证列表与测试列表。我们的实验中使用了
 原始的全部训练数据作为网络训练，两个验证集全部数据用于选择最好模型进行测试集上的评估，标准测试集中的所有图片都被用于评估模型的最终性能。
 
-数据集SCUT-HCCDoc和SCUT-EPT可以分别从https://github.com/HCIILAB/SCUT-HCCDoc_Dataset_Release 与 https://github.com/HCIILAB/SCUT-EPT_Dataset_Release?tab=readme-ov-file 申请获得。IAM数据集可以从
-https://fki.tic.heia-fr.ch/databases/iam-handwriting-database 获得，需要注意的是自从2018年后，大多数相关研究者的工作采用了所谓的RWTH数据划分方式，它们与标准的IAM数据集划分并不相同。
+数据集SCUT-HCCDoc和SCUT-EPT可以分别从https://github.com/HCIILAB/SCUT-HCCDoc_Dataset_Release 与 https://github.com/HCIILAB/SCUT-EPT_Dataset_Release?tab=readme-ov-file 申请获得。IAM数据集可以从https://
+fki.tic.heia-fr.ch/databases/iam-handwriting-database 获得，需要注意的是自从2018年后，大多数相关研究者的工作采用了所谓的RWTH数据划分方式，它们与标准的IAM数据集划分并不相同。
