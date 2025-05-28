@@ -1,8 +1,8 @@
-"""
-@author : Wukong90
+'''
+@author : Zi-Rui Wang
 @time : 2024
-@homepage : https://github.com/Wukong90
-"""
+@github : https://github.com/Wukong90
+'''
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
