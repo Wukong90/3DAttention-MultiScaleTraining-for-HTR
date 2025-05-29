@@ -12,7 +12,7 @@ Datasets_list/SCUT-HCCDoc/中train_list.txt与test_list.txt为我们使用的训
 在SCUT-EPT数据集中，681张包含有字符交换或重叠的异常手写文本被删除，实际只使用39,319副文本行图像用于训练。Datasets_list/SCUT-EPT/中的train_list.txt与test_list.txt为我们使用的训练图像列表与测试图像列表，测试
 集包含了该数据集的原始全部测试图像。abnormal.txt为训练集中被排除的681张异常图片列表，它们的具体分类可以另外参考我们的项目https://github.com/Wukong90/EHT-Dataset.SCUT-EPT-Abnormal 。Datasets_list/SCUT-EPT/下的文件TrainDataRuChar2Int_EPT.npy 与 TrainDataRuInt2Char_EPT.npy 保存有我们在实验中使用的该数据集的字符与网络输出节点对应关系。
 
-标准的IAM数据集提供了一个训练集、两个验证集和一个测试集。该项目目录Datasets_list/IAM/split/中列出的trainset.txt、validationset1.txt、validationset2.txt、testset.txt为相应的训练列表、验证列表与测试列表。我们的实验中使用了原始的全部训练数据作为网络训练，两个验证集全部数据用于选择最好模型进行测试集上的评估，标准测试集中的所有图片都被用于评估模型的最终性能。
+标准的IAM数据集提供了一个训练集、两个验证集和一个测试集。目录Datasets_list/IAM/split/中列出的trainset.txt、validationset1.txt、validationset2.txt、testset.txt为相应的训练列表、验证列表与测试列表。我们的实验中使用了原始的全部训练数据作为网络训练，两个验证集全部数据用于选择最好模型进行测试集上的评估，标准测试集中的所有图片都被用于评估模型的最终性能。
 
 两个较新的具有挑战的手写中文数据集SCUT-HCCDoc和SCUT-EPT可以分别从https://github.com/HCIILAB/SCUT-HCCDoc_Dataset_Release 与 https://github.com/HCIILAB/SCUT-EPT_Dataset_Release?tab=readme-ov-file 申请获得。手写英文数据集IAM可以从https://fki.tic.heia-fr.ch/databases/iam-handwriting-database 获得，需要注意的是自从2018年后，大多数相关研究者的工作采用了所谓的RWTH数据划分方式，它们与标准的IAM数据集划分并不相同。
 
