@@ -1,7 +1,5 @@
 **Read this in other languages: [English](README.md),[中文](README_zh.md).**
 
-### English
-
 # Three-dimensional attention multi-scale training network (TDMTNet)
 
 The TDMTNet code for handwritten text line recognition and the training and testing codes have been released (the cross entropy loss based fine-tuning code has not been released yet). The training/testing code for the Chinese dataset is train_TDMSNet_Chinese.py, and the training/testing code for the English dataset is train_TDMSNet_eng.py. The network model is located in model/model.py. The directory configure contains the main configuration files, parameter settings, and dataset construction and image preprocessing codes. The directory Datasets_list is used to store training/test image data and file name lists. The directory weights contains the trained network weights by using different datasets. A weight name only containing CTC indicates that the weight has not been fine-tuned by the CE loss while a weight name including CTC_CE indicates that the network weight has been fine-tuned by the CE loss. All weights contain three complete branches. In the inference stage, we actually only need to keep the branch corresponding to the window length of 3.
